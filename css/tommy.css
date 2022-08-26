@@ -1,6 +1,30 @@
 body {
     font-family: Poppins;
-    background-color: white;
     text-align: center;
     margin: 0px;
+}
+
+img {
+    width: 500px;
+}
+
+#container {
+    width: 1200px;
+    margin: auto;
+    padding: 5px;
+}
+
+.animal {
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.animal-label, .animal-description {
+    width: 600px;
+}
+
+.animal-description {
+    text-align: left;
 }
