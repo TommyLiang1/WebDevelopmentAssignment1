@@ -21,7 +21,9 @@ body {
 }
 
 .main-nav {
-  background: #6d8ac0;
+  background-image: url('../img/Zoo\ Banner.jpg');
+  background-position: 25% -17%;
+  background-attachment: fixed;
   z-index: 1;
 }
 
