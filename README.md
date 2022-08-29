@@ -11,8 +11,8 @@
 
 ## 1. Group Members
 1. Wei Da Chen - [chenweida6220](https://github.com/chenweida6220)
-2. Kevin Hardyal - [TommyLiang1](https://github.com/TommyLiang1)
-3. Tommy Liang - [kevinsville](https://github.com/kevinville)
+2. Tommy Liang - [TommyLiang1](https://github.com/TommyLiang1)
+3. Kevin Hardyal - [kevinville](https://github.com/kevinville)
 
 ## 2. Overview
 **Goal**
