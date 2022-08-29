@@ -3,11 +3,11 @@
 [Website link](https://tommyliang1.github.io/WebDevelopmentAssignment1/)
 
 ## Table of Contents
-1. [Group Members](#Group_Members)
+1. [Group Members](#Group-Members)
 2. [Overview](#Overview)
 3. [Product Spec](#Product-Spec)
 4. [GIF](#GIF)
-5. [Grading Criteria](#Grading_Criteria)
+5. [Grading Criteria](#Grading-Criteria)
 
 ## Group Members
 1. Wei Da Chen - [chenweida6220](https://github.com/chenweida6220)
