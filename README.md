@@ -30,6 +30,12 @@ Each animal's webpage should have the following:
 * [x] At least one paragraph of information on the animal
 
 ## Grading Criteria
-* Name of the animal
-* One or more images of the animal
-* At least one paragraph of information on the animal
+* HTML/CSS is formatted properly, and code is organized. 
+* Commit messages are descriptive.
+* A new feature branch is created for each web page being added to the website.
+* The visually appealing homepage includes links to other web pages. 
+* At least 4 animals are in each student's zoo.
+* Users can clearly navigate throughout the website.
+* Thoughtful styling has been applied.
+* Pull requests are created when merging feature branches.
+* The website is deployed to GitHub Pages, and the website link is included in GitHub repository's README section.
