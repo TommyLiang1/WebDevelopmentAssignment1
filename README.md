@@ -30,8 +30,8 @@ Each animal's webpage should have the following:
 
 **Optional**
 * [x] Image Carousel
-* [] Scroll Text Animation
-* [] Video Loop
+* [ ] Scroll Text Animation
+* [ ] Video Loop
 
 ## 4. GIF
 [To Be Added]
