@@ -28,6 +28,11 @@ Each animal's webpage should have the following:
 * [x] One or more images of the animal
 * [x] At least one paragraph of information on the animal
 
+**Optional**
+[x] Image Carousel
+[] Scroll Text Animation
+[] Video Loop
+
 ## 4. GIF
 [To Be Added]
 
