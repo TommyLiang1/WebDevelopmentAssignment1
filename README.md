@@ -29,9 +29,9 @@ Each animal's webpage should have the following:
 * [x] At least one paragraph of information on the animal
 
 **Optional**
-[x] Image Carousel
-[] Scroll Text Animation
-[] Video Loop
+* [x] Image Carousel
+* [] Scroll Text Animation
+* [] Video Loop
 
 ## 4. GIF
 [To Be Added]
