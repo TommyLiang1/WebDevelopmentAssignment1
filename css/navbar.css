@@ -62,7 +62,7 @@ body {
 /* -------------------------------------------------------- */
 
 .main-nav .dropdown {
-    position: relative;
+    position: absolute;
 }
 
 .main-nav .dropdown .dropdown-menu {
