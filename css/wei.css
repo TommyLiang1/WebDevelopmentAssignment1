@@ -18,10 +18,6 @@
     margin-left: -15px;
 }
 
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-
 body {
     background-color: white;
 }
@@ -43,16 +39,6 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
-
-.btn:not(:disabled):not(.disabled) {
-    cursor: pointer;
-}
-
-.btn-secondary {
-    color: #fff;
-    background-color: #6c757d;
-    border-color: #6c757d;
 }
 
 .btn {
@@ -77,13 +63,6 @@ p {
     margin: 5rem 0;
 }
 
-.col-md-7 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
-}
-
 h4 {
     font-weight: 400;
 }
@@ -92,3 +71,26 @@ h4 {
     margin-top: 7rem;
     font-size: 40px;
 }
+
+/* -------------------------------------------------------- */
+/* Rotation Animation Effect */
+.image {
+    perspective: 3000px;
+    width: 50%;
+    position: relative;
+    transform-style: preserve-3d;
+    margin: auto;
+  }
+
+  .image img {
+    transform: rotateX(70deg) rotateZ(60deg) translate3d(120px, -100px, 70px);
+    box-shadow: -80px 60px 15px 5px rgba(0,0,0,0.4);
+    transition: all .4s;
+    transform-style: preserve-3d;
+  }
+  .image:hover img {
+    transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, 0px, 0px);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+  }
+  /* -------------------------------------------------------- */
+  
