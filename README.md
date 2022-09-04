@@ -7,7 +7,7 @@
 2. [Overview](#Overview)
 3. [Product Spec](#Product-Spec)
 4. [GIF](#GIF)
-5. [Grading Criteria](#Grading-Criteria)
+5. [Grading Criteria](#5.-Grading-Criteria)
 
 ## 1. Group Members
 1. Wei Da Chen - [chenweida6220](https://github.com/chenweida6220) -> Hunter College Zoo
