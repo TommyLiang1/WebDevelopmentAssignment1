@@ -15,7 +15,7 @@
 3. Kevin Hardyal - [kevinville](https://github.com/kevinville) -> CCNY Zoo
 4. Stephanie Kim - [steph-kimm](https://github.com/steph-kimm) -> Brooklyn College Zoo
 
-## 2. Overview
+2. ## Overview
 **Goal**
 To create a basic website. Demonstrate understanding of Git commands and GitHub workflow as well as ability to work with HTML and CSS.
 
