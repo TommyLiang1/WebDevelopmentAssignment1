@@ -9,7 +9,7 @@
 4. [GIF](#GIF)
 5. [Grading Criteria](#5.-Grading-Criteria)
 
-## 1. Group Members
+1. ## Group Members
 1. Wei Da Chen - [chenweida6220](https://github.com/chenweida6220) -> Hunter College Zoo
 2. Tommy Liang - [TommyLiang1](https://github.com/TommyLiang1) -> Baruch College Zoo
 3. Kevin Hardyal - [kevinville](https://github.com/kevinville) -> CCNY Zoo
@@ -22,7 +22,7 @@ To create a basic website. Demonstrate understanding of Git commands and GitHub 
 **Description**
 CUNY ZOOS is a website that consists of 4 zoos that represent 4 CUNY colleges. There is a homepage to greet visitors to the website. The homepage contains links to the other web pages on the website. There are at least 4 animals in each zoo. 
 
-## 3. Product Spec
+3. ## Product Spec
 **Required**
 Each animal's webpage should have the following:
 * [x] Name of the animal
@@ -35,10 +35,10 @@ Each animal's webpage should have the following:
 * [ ] Video Loop
 * [x] Social Media Buttons
 
-## 4. GIF
+4. ## GIF
 [To Be Added]
 
-## 5. Grading Criteria
+5. ## Grading Criteria
 * HTML/CSS is formatted properly, and code is organized. 
 * Commit messages are descriptive.
 * A new feature branch is created for each web page being added to the website.
