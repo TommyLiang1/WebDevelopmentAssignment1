@@ -10,9 +10,10 @@
 5. [Grading Criteria](#Grading-Criteria)
 
 ## 1. Group Members
-1. Wei Da Chen - [chenweida6220](https://github.com/chenweida6220)
-2. Tommy Liang - [TommyLiang1](https://github.com/TommyLiang1)
-3. Kevin Hardyal - [kevinville](https://github.com/kevinville)
+1. Wei Da Chen - [chenweida6220](https://github.com/chenweida6220) -> Hunter College Zoo
+2. Tommy Liang - [TommyLiang1](https://github.com/TommyLiang1) -> Baruch College Zoo
+3. Kevin Hardyal - [kevinville](https://github.com/kevinville) -> CCNY Zoo
+4. Stephanie Kim - [steph-kimm](https://github.com/steph-kimm) -> Brooklyn College Zoo
 
 ## 2. Overview
 **Goal**
