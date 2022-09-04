@@ -33,7 +33,7 @@ Each animal's webpage should have the following:
 * [x] Image Carousel
 * [X] Scroll Text Animation
 * [ ] Video Loop
-* [ ] Social Media Buttons
+* [x] Social Media Buttons
 
 ## 4. GIF
 [To Be Added]
