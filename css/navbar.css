@@ -1,23 +1,124 @@
-#navbar {
-    background-color: #333333;
-    color: lightgray;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
     padding: 0;
 }
 
-.nav-item {
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 15px;
+header {
+    background-image: url('../img/Zoo\ Banner.jpg'); 
+    background-position: 25% -20%;
+    background-attachment: fixed;
 }
 
-a {
-    text-decoration: none;
-    color: lightgray
+/* Centers vertically and horizontally */
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
-a:hover {
-    color: white;
+.main-nav .navbar-brand {
+    padding: 0;
 }
 
+.main-nav .navbar-nav .nav-item {
+    position: relative;
+}
+
+.main-nav .navbar-nav .nav-item .nav-link {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: -1px -1px 0 black;
+}
+
+.main-nav .navbar-nav .nav-item .nav-link span i {
+    font-size: 11px;
+}
+
+/* -------------------------------------------------------- */
+/* Colors the page nav header you are on */
+.main-nav .navbar-nav .nav-item.active .nav-link {
+    color: #2e7eed;
+}
+
+.main-nav .navbar-nav .nav-item.active .nav-link:before {
+    content: '';
+    background: #2e7eed;
+    width: 60%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+/* -------------------------------------------------------- */
+
+.main-nav .dropdown {
+    position: absolute;
+}
+
+.main-nav .dropdown .dropdown-menu {
+    padding: 0;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+    display: none;
+    margin-top: 0;
+}
+
+.main-nav .dropdown .dropdown-menu.show {
+    display: block;
+}
+
+.main-nav .dropdown .dropdown-menu .dropdown-item {
+    font-size: 13px;
+    padding: 3px 22px;
+    transition: .3s ease;
+}
+
+.main-nav .dropdown .dropdown-menu .dropdown-item.active,
+.main-nav .dropdown .dropdown-menu .dropdown-item.focus,
+.main-nav .dropdown .dropdown-menu .dropdown-item:focus,
+.main-nav .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+    color: #2e7eed;
+}
+
+.main-nav .dropdown .dropdown-menu li:first-child {
+    margin-top: 10px;
+}
+
+.main-nav .dropdown .dropdown-menu li:last-child {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+    .main-nav .dropdown .dropdown-menu {
+        position: absolute;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+        transition: visibility 0.2s, opacity 0.2s, -webkit-transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+        transition: visibility 0.2s, opacity 0.2s, transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+        transition: visibility 0.2s, opacity 0.2s, transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99), -webkit-transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+    }
+
+    .main-nav .dropdown:hover>.dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        color: #777;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
