@@ -14,15 +14,12 @@
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/text-animation.css">
     <link rel="stylesheet" href="css/socialmedia-buttons.css">
-    <!-- <link rel="stylesheet" href="css/Wei's CSS/wei.css">
-    <link rel="stylesheet" href="css/Wei's CSS/wei_bluewhale.css">
-    <link rel="stylesheet" href="css/Wei's CSS/wei_goldeneagle.css">
-    <link rel="stylesheet" href="css/Wei's CSS/wei_karnerbluebutterfly.css">
-    <link rel="stylesheet" href="css/Wei's CSS/wei_shortearedowl.css"> -->
+    <link rel="stylesheet" href="css/wei_bluewhale.css">
 
     <!-- CUSTOM JS -->
     <!-- Defer is needed or else carousel buttons will not work -->
     <script src="js/carousel.js" defer></script>
+    <script src="js/text-animation-colorchanger.js" defer></script>
 
     <!-- PLUGINS -->
     <!-- BootStrap --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -52,7 +49,7 @@
         <div class="container">
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="center nav-item dropdown active">
+                <li class="center nav-item dropdown @@logo">
                     <a class="navbar-brand nav-link dropdown-toggle" href="index.html"><img src="img/CUNY_ZOOS_Logo.png" alt="logo"></a>
                     <!-- Dropdown list -->
                     <ul class="dropdown-menu">
@@ -61,16 +58,16 @@
                     </ul>
                   </li>
               <!-- Wei's Hunter College -->
-              <li class="center nav-item dropdown @@hunter">
+              <li class="center nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="wei.html" data-toggle="dropdown">Hunter College
                   <span><i class="ti-angle-down"></i></span>
                 </a>
                 <!-- Dropdown list -->
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item @@animal1" href="wei_bluewhale.html"><img src="img/Wei's Animals/Blue Whale Favicon/favicon.ico">Blue Whale</a></li>
-                  <li><a class="dropdown-item @animal2" href="wei_goldeneagle.html"><img src="img/Wei's Animals/Golden Eagle Favicon/favicon.ico">Golden Eagle</a></li>
-                  <li><a class="dropdown-item @@animal3" href="wei_karnerbluebutterfly.html"><img src="img/Wei's Animals/Karner Blue Butterfly Favicon/favicon.ico">Karner Blue Butterfly</a></li>
-                  <li><a class="dropdown-item @@animal4" href="wei_shortearedowl.html"><img src="img/Wei's Animals/Short Eared Owl Favicon/favicon.ico">Short-eared Owl</a></li>
+                  <li><a class="dropdown-item @@animal1" href="#"><img src="img/Wei's Animals/Blue Whale Favicon/favicon.ico">Blue Whale</a></li>
+                  <li><a class="dropdown-item @animal2" href="#"><img src="img/Wei's Animals/Golden Eagle Favicon/favicon.ico">Golden Eagle</a></li>
+                  <li><a class="dropdown-item @@animal3" href="#"><img src="img/Wei's Animals/Karner Blue Butterfly Favicon/favicon.ico">Karner Blue Butterfly</a></li>
+                  <li><a class="dropdown-item @@animal4" href="#"><img src="img/Wei's Animals/Short Eared Owl Favicon/favicon.ico">Short-eared Owl</a></li>
                 </ul>
               </li>
               <!-- Tommy's Baruch College -->
@@ -101,7 +98,7 @@
               </li>
               <!-- Stephanie's Brooklyn College -->
               <li class="center nav-item dropdown @@brooklyn">
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Brooklyn College
+                <a class="nav-link dropdown-toggle" href="kevin.html" data-toggle="dropdown">Brooklyn College
                   <span><i class="ti-angle-down"></i></span>
                 </a>
                 <!-- Dropdown list -->
@@ -118,36 +115,23 @@
       </nav>
     </header>
 
-    <!-- Carousel Image Wheel -->
-    <div class="carousel" data-carousel>
-      <button class="carousel-button prev" data-carousel-button="prev">&#11164;</button>
-      <button class="carousel-button next" data-carousel-button="next">&#11166;</button>
-      <ul data-slides>
-        <li class="slide" data-active>
-          <img src="img/Carousel Images/lion.jpg" alt="image of lion">
-        </li>
-        <li class="slide">
-          <img src="img/Carousel Images/otter.jpg" alt="image of otter">
-        </li>
-        <li class="slide">
-          <img src="img/Carousel Images/elephant.jpg" alt="image of elephant">
-        </li>
-        <li class="slide">
-          <img src="img/Carousel Images/owl.jpg" alt="image of owl">
-        </li>
-        <li class="slide">
-          <img src="img/Carousel Images/turtle.jpg" alt="image of turtle">
-        </li>
-        <li class="slide">
-          <img src="img/Carousel Images/toucan.jpg" alt="image of toucan">
-        </li>
-      </ul>
-    </div>
-
-    <!-- Text Animation  -->
-    <div class="center text-animation">
-      <h2>DISCOVER YOUR WILD SIDE</h2>
-      <h2>DISCOVER YOUR WILD SIDE</h2>
+    <!-- Golden Eagle Content -->
+    <div class="center animal">
+      <div class="center animal-label">
+          <img src="img/Wei's Animals/bluewhale_gif.gif" style="width: 500px;" />
+          <h3 class="animal-name"><b>Blue Whale</b></h3>
+      </div>
+      <div class="center animal-description">
+          <p>
+            <strong>Symbolism</strong>: Whales are associated with compassion and solitude, and knowledge of both life and death. They are also associated with unbridled creativity. The exhalation through the blowhole symbolizes the freeing of one's own creative energies.
+          </p>
+          <p>
+            <strong>Fun Fact</strong>: The blue whale is a marine mammal and a baleen whale. Reaching a maximum confirmed length of 29.9 meters and weighing up to 199 tonnes, it is the largest animal known to have ever existed. 
+          </p>
+          <p>
+            <strong>Area Located</strong>: The blue whale is found alone or in small groups in all oceans, but populations in the Southern Hemisphere are much larger. In the Northern Hemisphere, blue whales can be seen regularly in the Gulf of St. Lawrence and off the coasts of Monterey, California, and Baja California, Mexico.
+          </p>
+      </div>
     </div>
 
     <!-- Social Media Button -->

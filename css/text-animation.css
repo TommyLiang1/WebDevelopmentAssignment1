@@ -1,8 +1,11 @@
 .text-animation h2 {
   color: #fff;
-  font-size: 8em;
+  font-size: 6em;
   position: absolute;
-  transform: translate(25%, -250%);
+  /* transform: translate(100%, -250%); */
+  left: 25%;
+  right: 25%;
+  top: 90%;
 }
 
 .text-animation h2:nth-child(1) {

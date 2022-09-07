@@ -14,15 +14,12 @@
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/text-animation.css">
     <link rel="stylesheet" href="css/socialmedia-buttons.css">
-    <!-- <link rel="stylesheet" href="css/Wei's CSS/wei.css">
-    <link rel="stylesheet" href="css/Wei's CSS/wei_bluewhale.css">
-    <link rel="stylesheet" href="css/Wei's CSS/wei_goldeneagle.css">
-    <link rel="stylesheet" href="css/Wei's CSS/wei_karnerbluebutterfly.css">
-    <link rel="stylesheet" href="css/Wei's CSS/wei_shortearedowl.css"> -->
+    <link rel="stylesheet" href="css/wei_shortearedowl.css">
 
     <!-- CUSTOM JS -->
     <!-- Defer is needed or else carousel buttons will not work -->
     <script src="js/carousel.js" defer></script>
+    <script src="js/text-animation-colorchanger.js" defer></script>
 
     <!-- PLUGINS -->
     <!-- BootStrap --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -52,7 +49,7 @@
         <div class="container">
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="center nav-item dropdown active">
+                <li class="center nav-item dropdown @@logo">
                     <a class="navbar-brand nav-link dropdown-toggle" href="index.html"><img src="img/CUNY_ZOOS_Logo.png" alt="logo"></a>
                     <!-- Dropdown list -->
                     <ul class="dropdown-menu">
@@ -61,16 +58,16 @@
                     </ul>
                   </li>
               <!-- Wei's Hunter College -->
-              <li class="center nav-item dropdown @@hunter">
+              <li class="center nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="wei.html" data-toggle="dropdown">Hunter College
                   <span><i class="ti-angle-down"></i></span>
                 </a>
                 <!-- Dropdown list -->
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item @@animal1" href="wei_bluewhale.html"><img src="img/Wei's Animals/Blue Whale Favicon/favicon.ico">Blue Whale</a></li>
-                  <li><a class="dropdown-item @animal2" href="wei_goldeneagle.html"><img src="img/Wei's Animals/Golden Eagle Favicon/favicon.ico">Golden Eagle</a></li>
-                  <li><a class="dropdown-item @@animal3" href="wei_karnerbluebutterfly.html"><img src="img/Wei's Animals/Karner Blue Butterfly Favicon/favicon.ico">Karner Blue Butterfly</a></li>
-                  <li><a class="dropdown-item @@animal4" href="wei_shortearedowl.html"><img src="img/Wei's Animals/Short Eared Owl Favicon/favicon.ico">Short-eared Owl</a></li>
+                  <li><a class="dropdown-item @@animal1" href="#"><img src="img/Wei's Animals/Blue Whale Favicon/favicon.ico">Blue Whale</a></li>
+                  <li><a class="dropdown-item @animal2" href="#"><img src="img/Wei's Animals/Golden Eagle Favicon/favicon.ico">Golden Eagle</a></li>
+                  <li><a class="dropdown-item @@animal3" href="#"><img src="img/Wei's Animals/Karner Blue Butterfly Favicon/favicon.ico">Karner Blue Butterfly</a></li>
+                  <li><a class="dropdown-item @@animal4" href="#"><img src="img/Wei's Animals/Short Eared Owl Favicon/favicon.ico">Short-eared Owl</a></li>
                 </ul>
               </li>
               <!-- Tommy's Baruch College -->
@@ -101,7 +98,7 @@
               </li>
               <!-- Stephanie's Brooklyn College -->
               <li class="center nav-item dropdown @@brooklyn">
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Brooklyn College
+                <a class="nav-link dropdown-toggle" href="kevin.html" data-toggle="dropdown">Brooklyn College
                   <span><i class="ti-angle-down"></i></span>
                 </a>
                 <!-- Dropdown list -->
@@ -118,36 +115,23 @@
       </nav>
     </header>
 
-    <!-- Carousel Image Wheel -->
-    <div class="carousel" data-carousel>
-      <button class="carousel-button prev" data-carousel-button="prev">&#11164;</button>
-      <button class="carousel-button next" data-carousel-button="next">&#11166;</button>
-      <ul data-slides>
-        <li class="slide" data-active>
-          <img src="img/Carousel Images/lion.jpg" alt="image of lion">
-        </li>
-        <li class="slide">
-          <img src="img/Carousel Images/otter.jpg" alt="image of otter">
-        </li>
-        <li class="slide">
-          <img src="img/Carousel Images/elephant.jpg" alt="image of elephant">
-        </li>
-        <li class="slide">
-          <img src="img/Carousel Images/owl.jpg" alt="image of owl">
-        </li>
-        <li class="slide">
-          <img src="img/Carousel Images/turtle.jpg" alt="image of turtle">
-        </li>
-        <li class="slide">
-          <img src="img/Carousel Images/toucan.jpg" alt="image of toucan">
-        </li>
-      </ul>
-    </div>
-
-    <!-- Text Animation  -->
-    <div class="center text-animation">
-      <h2>DISCOVER YOUR WILD SIDE</h2>
-      <h2>DISCOVER YOUR WILD SIDE</h2>
+    <!-- Golden Eagle Content -->
+    <div class="center animal">
+      <div class="center animal-label">
+          <img src="img/Wei's Animals/shortearedowl_gif.gif" style="width: 500px;" />
+          <h3 class="animal-name"><b>Short Eared Owl</b></h3>
+      </div>
+      <div class="center animal-description">
+          <p>
+            <strong>Symbolism</strong>: Short-eared Owls are active in the daytime. Some Native American tribes such as the Cherokee, Lakota, and Caddo believed that owls may bring news to medicine men who are able to understand them. This news may tell of events happening at a far away distance or of events of the future.
+          </p>
+          <p>
+            <strong>Fun Fact</strong>: Short-eared Owls begin calling while still inside the egg. This high pitched sound will continue after hatching. Around 7-days of age, the nestlings’ voice will become somewhat lower in pitch.
+          </p>
+          <p>
+            <strong>Area Located</strong>: The range of the Short-eared Owl generally spans the entire United States. The breeding range of the Short-eared Owl in North American includes areas of northern California across to central Missouri and then moving up to the Great Lakes area and all areas north.
+          </p>
+      </div>
     </div>
 
     <!-- Social Media Button -->

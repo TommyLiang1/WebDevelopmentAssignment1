@@ -4,13 +4,13 @@
   align-items: center;
   justify-content: center;
   background-image: url('../img/Zoo\ Banner.jpg'); 
+  min-height: 25vh;
 }
 
 .wrapper .button{
   display: inline-block;
   height: 60px;
   width: 60px;
-  float: left;
   margin: 0 5px;
   overflow: hidden;
   background-image: url('../img/Zoo\ Banner.jpg'); 
