@@ -1,5 +1,5 @@
 body {
-    background: url('../img/Wei\'s\ Animals/goldeneagle_gif.gif');
+    background: url('../img/Wei\'s\ Animals/bluewhale_gif.gif');
 }
 
 /* Individual Animal Descriptions */
@@ -18,7 +18,7 @@ body {
 }
 
 .animal-label > img {
-    border-radius: 25% 10%;
+    border-radius: 50% 20% / 10% 40%;
 }
 
 .animal-description {
