@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-image: url('../img/Zoo\ Banner.jpg'); 
-    background-position: 25% -20%;
-    background-attachment: fixed; */
 }
 
 body {
@@ -12,8 +9,8 @@ body {
     padding: 0;
 }
 
-.header {
-    background-image: url('../img/Zoo\ Banner.jpg');
+header {
+    background-image: url('../img/Zoo\ Banner.jpg'); 
     background-position: 25% -20%;
     background-attachment: fixed;
 }
@@ -68,7 +65,7 @@ body {
 /* -------------------------------------------------------- */
 
 .main-nav .dropdown {
-    position: relative;
+    position: absolute;
 }
 
 .main-nav .dropdown .dropdown-menu {

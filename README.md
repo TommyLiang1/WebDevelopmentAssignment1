@@ -10,11 +10,12 @@
 4. [GIF](#GIF)
 5. [Grading Criteria](#Grading-Criteria)
 
-## 1. Group Members
+## Group Members
 
-1. Wei Da Chen - [chenweida6220](https://github.com/chenweida6220)
-2. Tommy Liang - [TommyLiang1](https://github.com/TommyLiang1)
-3. Kevin Hardyal - [kevinville](https://github.com/kevinville)
+1. Wei Da Chen - [chenweida6220](https://github.com/chenweida6220) -> Hunter College Zoo
+2. Tommy Liang - [TommyLiang1](https://github.com/TommyLiang1) -> Baruch College Zoo
+3. Kevin Hardyal - [kevinville](https://github.com/kevinville) -> CCNY Zoo
+4. Stephanie Kim - [steph-kimm](https://github.com/steph-kimm) -> Brooklyn College Zoo
 
 ## 2. Overview
 
@@ -36,6 +37,46 @@ Each animal's webpage should have the following:
 **Optional**
 
 - [x] Image Carousel
+- [x] Scroll Text Animation
+- [ ] Video Loop
+- [x] Social Media Buttons
+
+## 4. GIF
+
+[To Be Added]
+
+## 5. Grading Criteria
+
+- HTML/CSS is formatted properly, and code is organized.
+- Commit messages are descriptive.
+- A new feature branch is created for each web page being added to the website.
+- The visually appealing homepage includes links to other web pages.
+- At least 4 animals are in each student's zoo.
+- Users can clearly navigate throughout the website.
+- Thoughtful styling has been applied.
+- Pull requests are created when merging feature branches.
+- The website is deployed to GitHub Pages, and the website link is included in GitHub repository's README section.
+
+<<<<<<< HEAD
+
+## 3. Product Spec
+
+=======
+
+## Product Spec
+
+> > > > > > > 7ca5d616dabf6c956c73b99a2ac6ddf7c52701c0
+> > > > > > > **Required**
+> > > > > > > Each animal's webpage should have the following:
+
+- [x] Name of the animal
+- [x] One or more images of the animal
+- [x] At least one paragraph of information on the animal
+
+**Optional**
+<<<<<<< HEAD
+
+- [x] Image Carousel
 - [ ] Scroll Text Animation
 - [ ] Video Loop
 
@@ -53,4 +94,26 @@ Each animal's webpage should have the following:
 - Users can clearly navigate throughout the website.
 - Thoughtful styling has been applied.
 - Pull requests are created when merging feature branches.
+- # The website is deployed to GitHub Pages, and the website link is included in GitHub repository's README section.
+
+* [x] Image Carousel
+* [x] Scroll Text Animation
+* [ ] Video Loop
+* [x] Social Media Buttons
+
+## GIF
+
+[To Be Added]
+
+## Grading Criteria
+
+- HTML/CSS is formatted properly, and code is organized.
+- Commit messages are descriptive.
+- A new feature branch is created for each web page being added to the website.
+- The visually appealing homepage includes links to other web pages.
+- At least 4 animals are in each student's zoo.
+- Users can clearly navigate throughout the website.
+- Thoughtful styling has been applied.
+- Pull requests are created when merging feature branches.
 - The website is deployed to GitHub Pages, and the website link is included in GitHub repository's README section.
+  > > > > > > > 7ca5d616dabf6c956c73b99a2ac6ddf7c52701c0
