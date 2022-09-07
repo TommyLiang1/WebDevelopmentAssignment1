@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   background-image: url('../img/Zoo\ Banner.jpg'); 
+  height: 150px;
 }
 
 .wrapper .button{
