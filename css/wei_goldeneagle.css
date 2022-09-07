@@ -1,62 +1,28 @@
-img.animal-img {
-    height: 400px;
-}
-
-.animal-main {
-    display: inline-block;
-    margin: 30px 30px 0px 30px;
-    padding: 10px;
-}
-
-.animal-main:hover {
-    background-color: #777777;
-    border-radius: 10px;
-}
-
-a.animal-link {
-    text-decoration: none;
-    color: black;
-}
-
-a.animal-link:hover {
-    text-decoration: none;
-    color: white;
-}
-
-.animal-name {
-    margin-top: 10px;
-    font-size: 25pt;
+body {
+    background: url('../img/Wei\'s\ Animals/goldeneagle_gif.gif');
 }
 
 /* Individual Animal Descriptions */
-
-.back-button {
-    float: left;
-    margin: 50px 0px 0px 50px;
-    padding: 7.5px;
-    padding-top: 12px;
-    border-radius: 20px;
-    background-color: #777777;
-}
-
 .animal {
-    display: inline-block;
-    background-color: skyblue;
-    margin: 10px;
-    margin-top: 20px;
+    display: block;
+    background-color: #FFD700;
     padding: 30px;
     border: 3px solid;
     border-radius: 20px;
     box-shadow: 10px 10px #777777;
+    width: 30%;
 }
 
 .animal-label, .animal-description {
     width: 600px;
 }
 
+.animal-label > img {
+    border-radius: 25% 10%;
+}
+
 .animal-description {
     font-size: 15pt;
-    text-align: left;
     padding: 10px;
     border: 1px solid;
     border-radius: 10px;
