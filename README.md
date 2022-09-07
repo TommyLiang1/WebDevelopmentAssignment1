@@ -1,1 +1,1 @@
-![Wei's Golden Eagle page](wei_goldeneagle_gif.gif)
+![Wei's Karner Blue Butterfly page](wei_karnerbluebutterfly_gif.gif)
