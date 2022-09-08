@@ -2,10 +2,10 @@ body {
     background: url('../img/Wei\'s\ Animals/bluewhale_gif.gif');
 }
 
-/* Individual Animal Descriptions */
-.animal {
-    display: block;
-    background-color: #3d7096;
+.card {
+    margin-left: 33.3%;
+    margin-right: 33.3%;
+    background-color: #3d7096!important;
     padding: 30px;
     border: 3px solid;
     border-radius: 20px;
@@ -13,17 +13,17 @@ body {
     width: 30%;
 }
 
-.animal-label, .animal-description {
-    width: 600px;
-}
-
-.animal-label > img {
+.card-header > img {
     border-radius: 50% 20% / 10% 40%;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
-.animal-description {
+.card-text {
     font-size: 15pt;
     padding: 10px;
     border: 1px solid;
     border-radius: 10px;
+    background-color: #bad0cf;
 }
