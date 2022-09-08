@@ -17,7 +17,7 @@
 3. Kevin Hardyal - [kevinville](https://github.com/kevinville) -> CCNY Zoo
 4. Stephanie Kim - [steph-kimm](https://github.com/steph-kimm) -> Brooklyn College Zoo
 
-## 2. Overview
+## Overview
 
 **Goal**
 To create a basic website. Demonstrate understanding of Git commands and GitHub workflow as well as ability to work with HTML and CSS.
@@ -25,7 +25,7 @@ To create a basic website. Demonstrate understanding of Git commands and GitHub 
 **Description**
 CUNY ZOOS is a website that consists of 4 zoos that represent 4 CUNY colleges. There is a homepage to greet visitors to the website. The homepage contains links to the other web pages on the website. Each zoo consists of a landing page and 4 animal pages.
 
-## 3. Product Spec
+## Product Spec
 
 **Required**
 Each animal's webpage should have the following:
@@ -36,70 +36,14 @@ Each animal's webpage should have the following:
 
 **Optional**
 
+- [x] Navigation Bar
+- [x] Dropdown Navigation
+- [x] Icon Add-on (eg. Favicons, Font Awesome, etc.)
+- [x] Moving GIFs
 - [x] Image Carousel
-- [x] Scroll Text Animation
+- [x] Text Animation
 - [ ] Video Loop
 - [x] Social Media Buttons
-
-## 4. GIF
-
-[To Be Added]
-
-## 5. Grading Criteria
-
-- HTML/CSS is formatted properly, and code is organized.
-- Commit messages are descriptive.
-- A new feature branch is created for each web page being added to the website.
-- The visually appealing homepage includes links to other web pages.
-- At least 4 animals are in each student's zoo.
-- Users can clearly navigate throughout the website.
-- Thoughtful styling has been applied.
-- Pull requests are created when merging feature branches.
-- The website is deployed to GitHub Pages, and the website link is included in GitHub repository's README section.
-
-<<<<<<< HEAD
-
-## 3. Product Spec
-
-=======
-
-## Product Spec
-
-> > > > > > > 7ca5d616dabf6c956c73b99a2ac6ddf7c52701c0
-> > > > > > > **Required**
-> > > > > > > Each animal's webpage should have the following:
-
-- [x] Name of the animal
-- [x] One or more images of the animal
-- [x] At least one paragraph of information on the animal
-
-**Optional**
-<<<<<<< HEAD
-
-- [x] Image Carousel
-- [ ] Scroll Text Animation
-- [ ] Video Loop
-
-## 4. GIF
-
-[To Be Added]
-
-## 5. Grading Criteria
-
-- HTML/CSS is formatted properly, and code is organized.
-- Commit messages are descriptive.
-- A new feature branch is created for each web page being added to the website.
-- The visually appealing homepage includes links to other web pages.
-- At least 4 animals are in each student's zoo.
-- Users can clearly navigate throughout the website.
-- Thoughtful styling has been applied.
-- Pull requests are created when merging feature branches.
-- # The website is deployed to GitHub Pages, and the website link is included in GitHub repository's README section.
-
-* [x] Image Carousel
-* [x] Scroll Text Animation
-* [ ] Video Loop
-* [x] Social Media Buttons
 
 ## GIF
 
@@ -116,4 +60,3 @@ Each animal's webpage should have the following:
 - Thoughtful styling has been applied.
 - Pull requests are created when merging feature branches.
 - The website is deployed to GitHub Pages, and the website link is included in GitHub repository's README section.
-  > > > > > > > 7ca5d616dabf6c956c73b99a2ac6ddf7c52701c0
