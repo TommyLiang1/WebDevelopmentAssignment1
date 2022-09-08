@@ -28,8 +28,8 @@ CUNY ZOOS is a website that consists of 4 zoos that represent 4 CUNY colleges. T
 ## Product Spec
 
 **Required**
-Each animal's webpage should have the following:
 
+Each animal's webpage should have the following:
 - [x] Name of the animal
 - [x] One or more images of the animal
 - [x] At least one paragraph of information on the animal
