@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,37 +11,27 @@
   <!-- CUSTOM CSS -->
   <link rel="stylesheet" href="css/navbar.css">
   <link rel="stylesheet" href="css/slidein_img.css">
-  <link rel="stylesheet" href="css/carousel.css">
-  <link rel="stylesheet" href="css/text-animation.css">
   <link rel="stylesheet" href="css/socialmedia-buttons.css">
-  <!-- <link rel="stylesheet" href="css/Wei's CSS/wei.css">
-    <link rel="stylesheet" href="css/Wei's CSS/wei_bluewhale.css">
-    <link rel="stylesheet" href="css/Wei's CSS/wei_goldeneagle.css">
-    <link rel="stylesheet" href="css/Wei's CSS/wei_karnerbluebutterfly.css">
-    <link rel="stylesheet" href="css/Wei's CSS/wei_shortearedowl.css"> -->
-
-  <!-- CUSTOM JS -->
-  <!-- Defer is needed or else carousel buttons will not work -->
-  <script src="js/carousel.js" defer></script>
+  <link rel="stylesheet" href="css/text-animation.css">
 
   <!-- PLUGINS -->
   <!-- BootStrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- BootStrap CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
-    integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <!-- Font Awesome - Wei's Kit -->
   <script src="https://kit.fontawesome.com/18bfcf6dd8.js" crossorigin="anonymous"></script>
 
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="css/tommy.css">
+  
   <style>
     @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
   </style>
 
-  <title>CUNY Zoos</title>
-
   <!-- add icon link -->
   <link rel="icon" href="img/CUNY_ZOOS_Logo.png" type="image/x-icon">
+
+  <title>Tommy's Zoo</title>
 </head>
 
 <body>
@@ -52,7 +41,7 @@
       <img src="img/Slide_In GIFs/Slide-In Dolphin GIF.gif" width="125" height="80" alt="swimming pixel dolphin gif">
       <img src="img/Slide_In GIFs/Slide_In Man on Dolphin GIF.gif" width="125" height="80" alt="man on dolphin gif">
     </marquee>
-
+  
     <!-- Navigation Bar -->
     <nav class="navbar main-nav navbar-expand-lg">
       <div class="container">
@@ -85,7 +74,7 @@
               </ul>
             </li>
             <!-- Tommy's Baruch College -->
-            <li class="center nav-item dropdown @@baruch">
+            <li class="center nav-item dropdown active">
               <a class="nav-link dropdown-toggle" href="tommy.html" data-toggle="dropdown">Baruch College
                 <span><i class="ti-angle-down"></i></span>
               </a>
@@ -140,37 +129,32 @@
       </div>
     </nav>
   </header>
-
-  <!-- Carousel Image Wheel -->
-  <div class="carousel" data-carousel>
-    <button class="carousel-button prev" data-carousel-button="prev">&#11164;</button>
-    <button class="carousel-button next" data-carousel-button="next">&#11166;</button>
-    <ul data-slides>
-      <li class="slide" data-active>
-        <img src="img/Carousel Images/lion.jpg" alt="image of lion">
-      </li>
-      <li class="slide">
-        <img src="img/Carousel Images/otter.jpg" alt="image of otter">
-      </li>
-      <li class="slide">
-        <img src="img/Carousel Images/elephant.jpg" alt="image of elephant">
-      </li>
-      <li class="slide">
-        <img src="img/Carousel Images/owl.jpg" alt="image of owl">
-      </li>
-      <li class="slide">
-        <img src="img/Carousel Images/turtle.jpg" alt="image of turtle">
-      </li>
-      <li class="slide">
-        <img src="img/Carousel Images/toucan.jpg" alt="image of toucan">
-      </li>
-    </ul>
-  </div>
-
-  <!-- Text Animation  -->
-  <div class="center text-animation">
-    <h2>DISCOVER YOUR WILD SIDE</h2>
-    <h2>DISCOVER YOUR WILD SIDE</h2>
+  <div id="container">
+    <h1>Baruch College Zoo - Created by Tommy Liang</h1>
+    <div class="animal-main">
+      <a class="animal-link" href="src/tommy-zoo-animals/white-tiger.html">
+        <img class="animal-img" src="/img/Tommy Zoo/white_tiger.jpg" style="width: 500px;" />
+        <h3 class="animal-name">White Tiger</h3>
+      </a>
+    </div>
+    <div class="animal-main">
+      <a class="animal-link" href="src/tommy-zoo-animals/bald-eagle.html">
+        <img class="animal-img" src="/img/Tommy Zoo/bald_eagle.jpg" style="width: 500px;" />
+        <h3 class="animal-name">Bald Eagle</h3>
+      </a>
+    </div>
+    <div class="animal-main">
+      <a class="animal-link" href="src/tommy-zoo-animals/gorilla.html">
+        <img class="animal-img" src="/img/Tommy Zoo/gorilla.jpg" style="width: 500px;" />
+        <h3 class="animal-name">Gorilla</h3>
+      </a>
+    </div>
+    <div class="animal-main">
+      <a class="animal-link" href="src/tommy-zoo-animals/bottlenose-dolphin.html">
+        <img class="animal-img" src="/img/Tommy Zoo/bottlenose_dolphin.jpg" style="width: 500px;" />
+        <h3 class="animal-name">Bottlenose Dolphin</h3>
+      </a>
+    </div>
   </div>
 
   <!-- Social Media Button -->
@@ -200,7 +184,6 @@
       <span>YouTube</span>
     </div>
   </footer>
-
 </body>
 
 </html>
