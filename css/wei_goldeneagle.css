@@ -20,6 +20,10 @@ body {
     width: auto\9; /* ie8 */
 }
 
+.card-title {
+    color: white;
+}
+
 .card-text {
     font-size: 15pt;
     padding: 10px;
