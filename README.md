@@ -23,7 +23,7 @@
 To create a basic website. Demonstrate understanding of Git commands and GitHub workflow as well as ability to work with HTML and CSS.
 
 **Description**
-CUNY ZOOS is a website that consists of 4 zoos that represent 4 CUNY colleges. There is a homepage to greet visitors to the website. The homepage contains links to the other web pages on the website. There are at least 4 animals in each zoo.
+CUNY ZOOS is a website that consists of 4 zoos that represent 4 CUNY colleges. There is a homepage to greet visitors to the website. The homepage contains links to the other web pages on the website. Each zoo consists of a landing page and 4 animal pages.
 
 ## 3. Product Spec
 
