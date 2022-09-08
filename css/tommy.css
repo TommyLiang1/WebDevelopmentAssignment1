@@ -65,7 +65,7 @@ a.animal-link:hover {
 }
 
 .animal-label, .animal-description {
-    width: 600px;
+    max-width: 600px;
 }
 
 .animal-description {
@@ -74,4 +74,10 @@ a.animal-link:hover {
     padding: 10px;
     border: 1px solid;
     border-radius: 10px;
+}
+
+.img-container > img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;/* ie8 */
 }
