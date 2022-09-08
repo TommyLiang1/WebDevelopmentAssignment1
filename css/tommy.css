@@ -1,10 +1,7 @@
-body {
+#container {
     font-family: Poppins;
     text-align: center;
     margin: 0px;
-}
-
-#container {
     width: 1200px;
     margin: auto;
     padding: 5px;
@@ -62,10 +59,16 @@ a.animal-link:hover {
     border: 3px solid;
     border-radius: 20px;
     box-shadow: 10px 10px #777777;
+    margin-left: 33.33333%;
+    margin-right: 33.33333%;
 }
 
 .animal-label, .animal-description {
     max-width: 600px;
+}
+
+.animal-name {
+    text-align: center;
 }
 
 .animal-description {
@@ -80,4 +83,8 @@ a.animal-link:hover {
     max-width: 100%;
     height: auto;
     width: auto\9;/* ie8 */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
