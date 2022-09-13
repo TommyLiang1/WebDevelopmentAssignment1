@@ -49,7 +49,7 @@ Each animal's webpage should have the following:
 
 ## GIF
 
-[To Be Added]
+![Staging Branch's GIF](https://imgur.com/xkloJyG)
 
 ## Grading Criteria
 
