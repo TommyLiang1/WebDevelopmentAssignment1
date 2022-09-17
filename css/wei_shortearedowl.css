@@ -1,0 +1,33 @@
+body {
+    background: url('../img/Wei\'s\ Animals/shortearedowl_gif.gif');
+}
+
+.card {
+    margin-left: 33.3%;
+    margin-right: 33.3%;
+    background-color: #7d7977!important;
+    padding: 30px;
+    border: 3px solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px #777777;
+    width: 30%;
+}
+
+.card-header > img {
+    border-radius: 10% / 50%;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    font-size: 15pt;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #9d98a0;
+}
